@@ -1,0 +1,13 @@
+PODS:
+  - AFSoundManager (2.1)
+  - MagicalRecord (2.3.0)
+
+DEPENDENCIES:
+  - AFSoundManager (~> 2.1)
+  - MagicalRecord
+
+SPEC CHECKSUMS:
+  AFSoundManager: 232af6154e736e6b2d8c93fafebfafd14fad7510
+  MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
+
+COCOAPODS: 0.39.0

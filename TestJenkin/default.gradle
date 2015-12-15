@@ -1,0 +1,27 @@
+app {
+  workspace = "TestJenkin.xcworkspace"
+  sdk = "iphoneos"
+  scheme = 'TestJenkin'
+  bundleNameSuffix = ""
+  configuration = 'Debug'
+}
+
+plist {
+  infoPlist = 'TestJenkin/Info.plist'
+  bundleIdentifier = 'com.arisvn.TestJenkin'
+  bundleDisplayName = "TestJenkin"
+  bundleIdentifierSuffix = ''
+  bundleDisplayNameSuffix = ""
+}
+
+certificate {
+  //certificateURI = 'ftp://192.168.1.234/certificates/UanMCCertificate.p12'
+  certificateURI = new File('certificates/UanMCCertificate.p12').toURI()
+
+  certificatePassword = ''
+
+  //mobileProvisionURI = 'ftp://192.168.1.234/Aris_Dev.mobileprovision'
+  mobileProvisionURI = new File('certificates/Aris_Dev.mobileprovision').toURI()
+  
+  identity = 'iPhone Developer: Uan Mai Cong'
+}
